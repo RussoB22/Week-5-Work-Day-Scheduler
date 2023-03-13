@@ -34,16 +34,16 @@ dayHourUl.querySelectorAll('li').forEach(li => {
   const clockhr = parseInt(li.id.split('-')[1]);
   console.log(clockhr)
   if (currentHour > clockhr) {
-    li.classList.add('late');
+    li.classList.add('past');
     li.classList.remove('present');
     li.classList.remove('future');
   } else if (currentHour == clockhr) {
     li.classList.add('present');
-    li.classList.remove('late');
+    li.classList.remove('past');
     li.classList.remove('future');
   } else {
     li.classList.add('future');
-    li.classList.remove('late');
+    li.classList.remove('past');
     li.classList.remove('present');
   }
 });
