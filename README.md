@@ -6,6 +6,10 @@ Create a simple calendar application that allows a user to save events for each 
 
 You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
 
+Deployed Site: https://russob22.github.io/Week-5-Work-Day-Scheduler/
+
+![_C__Users_russo_Bootcamp_Week%205%20Third%20Party%20API_Week-5-Work-Day-Scheduler_index html](https://user-images.githubusercontent.com/123154529/224640100-a8e28d84-55bb-4813-acfd-644bda6dee7c.png)
+
 ## User Story
 
 ```md
