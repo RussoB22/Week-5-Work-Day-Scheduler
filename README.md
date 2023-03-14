@@ -6,6 +6,7 @@ Deployed Site: https://russob22.github.io/Week-5-Work-Day-Scheduler/
 
 ![_C__Users_russo_Bootcamp_Week%205%20Third%20Party%20API_Week-5-Work-Day-Scheduler_index html](https://user-images.githubusercontent.com/123154529/224640100-a8e28d84-55bb-4813-acfd-644bda6dee7c.png)
 
+
 ## Your Task
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
