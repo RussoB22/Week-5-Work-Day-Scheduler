@@ -8,12 +8,13 @@ $(function () {
     currentDay.innerHTML = now.format('YYYY-MM-DD HH:mm:ss');
   }
   setInterval(updateCurrentDay, 1000);
-  for (let i = 0; i < 24; i++) {
+  for (let i = 8; i < 17; i++) {
     const li = document.createElement('li');
     li.setAttribute('id', `hour-${i+1}`);
     li.classList.add('row', 'time-block');
+    const dayhour = dayjs().hour(i+1).format('h A');
     li.innerHTML = `
-    <div class="col-2 col-md-1 hour text-center py-3">Hour ${i+1}</div>
+    <div class="col-2 col-md-1 hour text-center py-3">${dayhour}</div>
     <textarea class="col-8 col-md-10 description" rows="3"></textarea>
     <button class="btn saveBtn col-2 col-md-1" aria-label="save">
     <i class="fas fa-save" aria-hidden="true"></i>
@@ -31,6 +32,9 @@ $(function () {
       textarea.value = savedValue;
     }
   }
+
+
+
   dayHourUl.querySelectorAll('li').forEach(li => {
     const clockhr = parseInt(li.id.split('-')[1]);
     if (currentHour > clockhr) {
